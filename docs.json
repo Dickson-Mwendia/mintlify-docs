@@ -20,7 +20,7 @@
             ]
           },
           {
-            "group": "Getting Started",
+            "group": "Getting started",
             "pages": [
               "getting-started/quickstart",
               "getting-started/get-kwala-tokens"
@@ -39,7 +39,7 @@
             ]
           },
           {
-            "group": "Use Cases",
+            "group": "Use cases",
             "pages": [
               "use-cases/token-transfer-alert",
               "use-cases/nft-price-tracker",
@@ -50,7 +50,7 @@
             ]
           },
           {
-            "group": "Core Concepts",
+            "group": "Core concepts",
             "pages": [
               "concepts/supported-chains",
               "concepts/yaml-workflow-basics",
@@ -113,7 +113,7 @@
         "tab": "Use Cases",
         "groups": [
           {
-            "group": "Use Cases & Examples",
+            "group": "Use cases & examples",
             "pages": [
               "use-cases/token-transfer-alert",
               "use-cases/nft-price-tracker",
@@ -129,13 +129,13 @@
         "tab": "Kwala Explorer",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Getting started",
             "pages": [
               "explorer/overview"
             ]
           },
           {
-            "group": "Using the Explorer",
+            "group": "Using the Kwala Explorer",
             "pages": [
               "explorer/searching-workflows",
               "explorer/viewing-execution-details",
@@ -148,13 +148,13 @@
         "tab": "API Reference",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Getting started",
             "pages": [
               "api-reference/overview"
             ]
           },
           {
-            "group": "API Documentation",
+            "group": "API documentation",
             "pages": [
               "api-reference/authentication"
             ]
