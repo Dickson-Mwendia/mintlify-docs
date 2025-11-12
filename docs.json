@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Build on Kwala",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Overview",
@@ -89,38 +89,6 @@
               "architecture/public-verifiability",
               "architecture/verifier-nodes",
               "architecture/security-model"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Workflow Builder",
-        "groups": [
-          {
-            "group": "Using the Workflow Builder",
-            "pages": [
-              "workflow-builder/exploring-the-playground",
-              "workflow-builder/create-workflow",
-              "workflow-builder/configure-workflow",
-              "workflow-builder/deploy-workflow",
-              "workflow-builder/test-and-monitor",
-              "concepts/using-workflow-templates"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Use Cases",
-        "groups": [
-          {
-            "group": "Use cases & examples",
-            "pages": [
-              "use-cases/token-transfer-alert",
-              "use-cases/nft-price-tracker",
-              "use-cases/defi-yield-optimizer",
-              "use-cases/dao-proposal-notifier",
-              "use-cases/multi-chain-transaction-monitor",
-              "use-cases/liquidation-protection"
             ]
           }
         ]
