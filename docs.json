@@ -1,68 +1,181 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Kwala Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6300ff",
+    "light": "#8a4dff",
+    "dark": "#4700b7"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Build on Kwala",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Overview",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Getting Started",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "getting-started/quickstart",
+              "getting-started/get-kwala-tokens"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Use the Workflow Builder",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "workflow-builder/exploring-the-playground",
+              "workflow-builder/create-workflow",
+              "workflow-builder/configure-workflow",
+              "workflow-builder/deploy-workflow",
+              "workflow-builder/test-and-monitor",
+              "guides/using-workflow-templates",
+              "guides/best-practices"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Use Cases",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "use-cases/token-transfer-alert",
+              "use-cases/nft-price-tracker",
+              "use-cases/defi-yield-optimizer",
+              "use-cases/dao-proposal-notifier",
+              "use-cases/multi-chain-transaction-monitor",
+              "use-cases/liquidation-protection"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "guides/yaml-workflow-basics",
+              "guides/workflow-execution",
+              "guides/working-with-actions",
+              "guides/working-with-triggers"
+            ]
+          },
+          {
+            "group": "Enterprise",
+            "pages": [
+              "enterprise/kwala-for-enterprise"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "support/faq",
+              "support/troubleshooting",
+              "support/community-and-contact"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Architecture",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Architecture",
             "pages": [
-              "api-reference/introduction"
+              "architecture/system-overview",
+              "architecture/node-architecture",
+              "architecture/workflow-execution-flow",
+              "architecture/public-verifiability",
+              "architecture/verifier-nodes",
+              "architecture/security-model"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Workflow Builder",
+        "groups": [
+          {
+            "group": "Using the Workflow Builder",
+            "pages": [
+              "workflow-builder/exploring-the-playground",
+              "workflow-builder/create-workflow",
+              "workflow-builder/configure-workflow",
+              "workflow-builder/deploy-workflow",
+              "workflow-builder/test-and-monitor",
+              "guides/using-workflow-templates"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Use Cases",
+        "groups": [
+          {
+            "group": "Use Cases & Examples",
+            "pages": [
+              "use-cases/token-transfer-alert",
+              "use-cases/nft-price-tracker",
+              "use-cases/defi-yield-optimizer",
+              "use-cases/dao-proposal-notifier",
+              "use-cases/multi-chain-transaction-monitor",
+              "use-cases/liquidation-protection"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Kwala Explorer",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "explorer/overview"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Using the Explorer",
+            "pages": [
+              "explorer/searching-workflows",
+              "explorer/viewing-execution-details",
+              "explorer/network-statistics"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "api-reference/overview"
+            ]
+          },
+          {
+            "group": "API Documentation",
+            "pages": [
+              "authentication"
+            ]
+          },
+          {
+            "group": "Endpoints",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoint/webhook",
+              "api-reference/endpoint/update"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/yaml-schema",
+              "reference/actions-reference",
+              "reference/triggers-reference",
+              "reference/supported-chains",
+              "reference/limits-and-quotas",
+              "reference/error-codes",
+              "reference/glossary"
             ]
           }
         ]
@@ -71,33 +184,38 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Kwala Website",
+          "href": "https://kwala.network",
+          "icon": "globe"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Playground",
+          "href": "https://kwala.network/dashboard",
+          "icon": "code"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://discord.com/invite/ZmQgZe45cy",
+          "icon": "discord"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/kwala-logo-dark.svg",
+    "dark": "/logo/kwala-logo-white.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:connect@kwala.network"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://kwala.network/dashboard"
     }
   },
   "contextual": {
@@ -114,9 +232,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/The_MAILabs",
+      "github": "https://github.com/kwala",
+      "linkedin": "https://www.linkedin.com/company/mai-labs/"
     }
   }
 }

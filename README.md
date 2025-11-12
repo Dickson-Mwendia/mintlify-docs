@@ -1,16 +1,16 @@
-# Mintlify Starter Kit
+# Kwala Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Documentation for the Kwala network - a decentralized workflow automation platform.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+This repository contains the official Kwala documentation with
 
-- Guide pages
-- Navigation
-- Customizations
+- Getting started guides
+- Architecture documentation
 - API reference pages
-- Use of popular components
+- Use cases and examples
+- Guides and tutorials
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+**[Visit the Kwala documentation](https://docs.kwala.network)**
 
 ## Development
 
