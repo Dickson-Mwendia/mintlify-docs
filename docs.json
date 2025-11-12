@@ -7,7 +7,7 @@
     "light": "#8a4dff",
     "dark": "#4700b7"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/kwala-logo-white.png",
   "navigation": {
     "tabs": [
       {
@@ -34,8 +34,8 @@
               "workflow-builder/configure-workflow",
               "workflow-builder/deploy-workflow",
               "workflow-builder/test-and-monitor",
-              "guides/using-workflow-templates",
-              "guides/best-practices"
+              "concepts/using-workflow-templates",
+              "concepts/best-practices"
             ]
           },
           {
@@ -52,10 +52,12 @@
           {
             "group": "Core Concepts",
             "pages": [
-              "guides/yaml-workflow-basics",
-              "guides/workflow-execution",
-              "guides/working-with-actions",
-              "guides/working-with-triggers"
+              "concepts/supported-chains",
+              "concepts/yaml-workflow-basics",
+              "concepts/workflow-execution",
+              "concepts/working-with-actions",
+              "concepts/working-with-triggers",
+              "concepts/limits-and-quotas"
             ]
           },
           {
@@ -69,6 +71,7 @@
             "pages": [
               "support/faq",
               "support/troubleshooting",
+              "support/glossary",
               "support/community-and-contact"
             ]
           }
@@ -101,7 +104,7 @@
               "workflow-builder/configure-workflow",
               "workflow-builder/deploy-workflow",
               "workflow-builder/test-and-monitor",
-              "guides/using-workflow-templates"
+              "concepts/using-workflow-templates"
             ]
           }
         ]
@@ -153,7 +156,7 @@
           {
             "group": "API Documentation",
             "pages": [
-              "authentication"
+              "api-reference/authentication"
             ]
           },
           {
@@ -172,10 +175,7 @@
               "reference/yaml-schema",
               "reference/actions-reference",
               "reference/triggers-reference",
-              "reference/supported-chains",
-              "reference/limits-and-quotas",
-              "reference/error-codes",
-              "reference/glossary"
+              "reference/error-codes"
             ]
           }
         ]

@@ -1,16 +1,6 @@
 # Kwala Documentation
 
-Documentation for the Kwala network - a decentralized workflow automation platform.
-
-This repository contains the official Kwala documentation with
-
-- Getting started guides
-- Architecture documentation
-- API reference pages
-- Use cases and examples
-- Guides and tutorials
-
-**[Visit the Kwala documentation](https://docs.kwala.network)**
+Documentation for the **[Kwala network](https://docs.kwala.network)** - a decentralized workflow automation platform.
 
 ## Development
 
@@ -30,7 +20,7 @@ View your local preview at `http://localhost:3000`.
 
 ## Publishing changes
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+Changes are deployed to production automatically after pushing to the default branch.
 
 ## Need help?
 
