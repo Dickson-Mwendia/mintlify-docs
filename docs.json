@@ -54,9 +54,10 @@
             "pages": [
               "concepts/supported-chains",
               "concepts/yaml-workflow-basics",
-              "concepts/workflow-execution",
               "concepts/working-with-actions",
               "concepts/working-with-triggers",
+              "concepts/workflow-execution",
+              "concepts/using-regex",
               "concepts/limits-and-quotas"
             ]
           },
@@ -67,10 +68,11 @@
             ]
           },
           {
-            "group": "Support",
+            "group": "Resources",
             "pages": [
               "support/faq",
               "support/troubleshooting",
+              "roadmap",
               "support/glossary",
               "support/community-and-contact"
             ]
