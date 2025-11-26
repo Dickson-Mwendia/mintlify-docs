@@ -3,7 +3,7 @@ title: 'Get KWALA Credits'
 description: 'Learn how to purchase and manage KWALA credits for workflow execution'
 ---
 
-KWALA operates on a credit-based system that powers your workflow executions. This guide explains how to acquire, manage, and monitor your KWALA credits.
+KWALA uses a credit-based model for your workflow executions.  Credits are consumed for trigger executions, workflow activations, API calls, cross-chain transactions, and stateful write operations.  This guide explains how to acquire, manage, and monitor your KWALA credits.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ Before purchasing KWALA credits, ensure you have:
 
 ## How to purchase KWALA credits
 
-There are two methods for purchasing Kwala credits using USDT on BNB Smart Chain. To get started, navigate to [payments.kwala.network](https://payments.kwala.network/).
+There are two methods for purchasing KWALA credits using USDT on BNB Smart Chain. To get started, navigate to [payments.kwala.network](https://payments.kwala.network/).
 
 <Info>
   **Network**: All transactions are processed on **BNB Smart Chain**. Ensure you have USDT on BSC network.
@@ -27,26 +27,26 @@ There are two methods for purchasing Kwala credits using USDT on BNB Smart Chain
 
 ## Method 1: Wallet swap (recommended)
 
-The Wallet Swap method allows you to directly swap USDT for KWALA credits from your connected wallet. It works well when you already have USDT in your connected wallet and want Kwala credit instantly credited into your account.
+The Wallet Swap method allows you to directly swap USDT for KWALA credits from your connected wallet. It works well when you already have USDT in your connected wallet and want KWALA credit instantly credited into your account.
 
 <Steps>
   <Step title="Connect your wallet">
-    Visit [payments.kwala.network](https://payments.kwala.network/) and select "Connect Wallet". A pop up appears, where you select your wallet from the available options and approve the connection.
+    Visit [payments.kwala.network](https://payments.kwala.network/) and select **Connect Wallet**. A pop up appears, where you select your wallet from the available options and approve the connection.
   <Frame>
     <img src="/images/getting-started/get-tokens/connect-wallet.PNG" alt="Select wallet to connect" />
   </Frame>
   </Step>
   
   <Step title="Select wallet swap tab">
-    On the payment portal, ensure the **"Wallet Swap"** tab is selected (it should be active by default).
+    On the payment portal, ensure the **Wallet Swap** tab is selected (it should be active by default).
   </Step>
   
   <Step title="Enter USDT amount">
-    In the "You Pay" field:
+    In the **You Pay** field:
     - Enter the amount of USDT you want to swap
     - Your wallet balance will be displayed for reference
-    - The "You Receive" field will automatically display the KWALA credits you'll get
-    - Enter your wallet address in the "Recipient Wallet Address" field
+    - The **You Receive** field will automatically display the KWALA credits you'll get
+    - Enter your wallet address in the **Recipient Wallet Address** field
   <Frame>
     <img src="../images/getting-started/get-tokens/swap-usdt-for-kwala.PNG" alt="Screenshot showing the Swap USDT for KWALA credits interface" />
   </Frame>
@@ -61,20 +61,20 @@ The Wallet Swap method allows you to directly swap USDT for KWALA credits from y
   </Step>
   
   <Step title="Confirm and swap">
-    Select the "Get KWALA Credits" button and approve the transaction in your wallet. The swap will be processed instantly on BNB Smart Chain.
+    Select the **Get KWALA Credits** button and approve the transaction in your wallet. The swap will be processed instantly on BNB Smart Chain.
   </Step>
   
   <Step title="Verify credit balance">
     Once the transaction is confirmed, your KWALA credits will be added to your address immediately. Your credit balance will also reflect in the KWALA dashboard as shown:
     <Frame>
-      <img src="/images/getting-started/get-tokens/kwala-tokens-credited.PNG" alt="KWALA credits successfully credited to wallet" />
+      <img src="../images/getting-started/get-tokens/kwala-tokens-credited.PNG" alt="KWALA credits successfully credited to wallet" />
     </Frame>
   </Step>
 </Steps>
 
 ## Method 2: Easy transfer
 
-The Easy Transfer method allows you to send USDT from any wallet to purchase KWALA credits for a specific recipient address.
+The Easy transfer method allows you to send USDT from any wallet to purchase KWALA credits for a specific recipient address.
 
 <Steps>
   <Step title="Access payment portal">
@@ -82,9 +82,9 @@ The Easy Transfer method allows you to send USDT from any wallet to purchase KWA
   </Step>
   
   <Step title="Select easy transfer tab">
-    Use the toggle button to switch to the **"Easy Transfer"** tab to change the payment method.
+    Use the toggle button to switch to the **Easy Transfer** tab to change the payment method.
     <Frame>
-      <img src="/images/getting-started/get-tokens/easy-transfer-option.PNG" alt="Easy transfer option selected" />
+      <img src="../images/getting-started/get-tokens/easy-transfer-option.PNG" alt="Easy transfer option selected" />
     </Frame>
   </Step>
   
@@ -96,8 +96,8 @@ The Easy Transfer method allows you to send USDT from any wallet to purchase KWA
     Open your wallet and send the desired amount of USDT to the copied address on BNB Smart Chain. The amount you send will determine how many KWALA credits you receive based on the current exchange rate.
   </Step>
   
-  <Step title="Receive Kwala Credits">
-    Once you've sent the USDT, Kwala credits will be automatically credited to the wallet address that made the transfer. Your credit balance will reflect on the Kwala dashboard. 
+  <Step title="Receive KWALA Credits">
+    Once you've sent the USDT, KWALA credits will be automatically credited to the wallet address that made the transfer. Your credit balance will reflect on the KWALA dashboard. 
   </Step>
 </Steps>
 
@@ -105,24 +105,28 @@ The Easy Transfer method allows you to send USDT from any wallet to purchase KWA
   Double-check the recipient KWALA address when using Easy Transfer. Transactions cannot be reversed once confirmed.
 </Warning>
 
-## Credit deduction
+## Workflow execution and credit deduction
 
-Credits are automatically deducted when workflows execute. Credit usage is based on computational resources and complexity, ensuring transparent pricing. Credits are deducted based on several factors:
+Every time you run a KWALA workflow, credits are automatically deducted from your KWALA address:
 
-- **Workflow complexity**: More complex workflows with multiple actions consume more credits
-- **Resource usage**: Gas fees, API calls, and computational resources affect credit usage
-- **Execution time**: Longer-running workflows may use more credits
-- **Failed executions**: Failed workflows may still consume minimal credits for processing attempts
+- Credits are deducted based on the complexity and resources used by your workflow
+- Failed workflows may still consume minimal credits for processing
+- Monitor your balance and usage on the KWALA Dashboard or explorer
+- Get notified when your credit balance runs low to avoid workflow interruptions
 
-## Monitoring your credits
+<Tip>
+  Ensure you have sufficient credits in your KWALA address before executing workflows. You can recharge at any time through the KWALA Payments page.
+</Tip>
 
-You can monitor your credits usage in real-time on the Kwala dashboard. From  the dashboard, you can view your current credit balance in your wallet and track credit deductions for each workflow execution. Kwala also allows tou to set up notification alerts when credits are running low. If you'd like detailed insights into the transaction logs, use the [Kwala Explorer](https://kwala-explorer.lovable.app/)
+## Monitor your credits
+
+You can monitor your credits usage in real-time on the KWALA dashboard. From  the dashboard, you can view your current credit balance in your wallet and track credit deductions for each workflow execution. KWALA also allows you to set up notification alerts when credits are running low. If you'd like detailed insights into the transaction logs, use the [KWALA Explorer](https://kwala-explorer.lovable.app/)
 
 ## Credit pricing
 
 For detailed pricing information and credit packages, visit our [pricing page](https://kwala.network/pricing).
 
-## Frequently asked questions about Kwala Credits
+## Frequently asked questions about KWALA Credits
 
 <AccordionGroup>
   <Accordion title="Do credits expire?">
