@@ -1,6 +1,6 @@
 ---
 title: 'Workflow actions'
-description: 'Master workflow actions in Kwala'
+description: 'Learn about workflow actions in Kwala'
 ---
 
 Actions are the core building blocks of KWALA workflows. They define what your workflow actually does. This could be deploying smart contracts, calling contract functions, sending tokens, or invoking external APIs. Each workflow can contain multiple actions that are executed either sequentially or in parallel.
@@ -80,7 +80,7 @@ actions:
 | **name** | Unique identifier for this action |
 | **type** | Must be `"call"` |
 | **targetContract** | Address of the smart contract to interact with |
-| **targetFunction** | Name of the function to call (e.g., `transfer`, `mint`) |
+| **targetFunction** | Name of the function to call (For example, `transfer`, `mint`) |
 | **targetParams** | Array of parameters for the function call |
 | **chainID** | Target blockchain network ID |
 | **encodedABI** | ABI-encoded function call |
@@ -135,19 +135,19 @@ Here's a comprehensive reference of all action fields:
 
 | Field | Required | Used In | Description |
 |-------|----------|---------|-------------|
-| **Name** | Required ✅ | All | Unique name for this action |
-| **Type** | Required ✅ | All | Type of action: `deploy`, `call`, or `api` |
-| **APIEndpoint** | Required ✅ for api | API | URL if making an API call |
-| **APIPayload** | Required ✅ for api | API | Request body for the API call |
-| **Bytecode** | Required ✅ for deploy | Deploy | Contract bytecode (hex string) when deploying |
-| **EncodedABI** | Required ✅ | Deploy, Call | ABI-encoded constructor or function call |
-| **InitializationArgs** | Required ✅ for deploy | Deploy | Arguments to pass into the constructor |
-| **TargetContract** | Required ✅ for call | Call | Address of the smart contract to interact with |
-| **TargetFunction** | Required ✅ for call | Call | Function name (e.g., transfer, mint) |
-| **TargetParams** | Required ✅ for call | Call | Parameters for the function call |
-| **ChainID** | Required ✅ | Deploy, Call | EVM Chain ID where the action will be executed |
-| **Metadata** | Optional ❌ | All | Optional metadata or tags |
-| **RetriesUntilSuccess** | Optional ❌ | All | Number of retries until success (default is 0) |
+| **Name** | Required | All | Unique name for this action |
+| **Type** | Required | All | Type of action: `deploy`, `call`, or `api` |
+| **APIEndpoint** | Required for api | API | URL if making an API call |
+| **APIPayload** | Required for api | API | Request body for the API call |
+| **Bytecode** | Required for deploy | Deploy | Contract bytecode (hex string) when deploying |
+| **EncodedABI** | Required | Deploy, Call | ABI-encoded constructor or function call |
+| **InitializationArgs** | Required for deploy | Deploy | Arguments to pass into the constructor |
+| **TargetContract** | Required for call | Call | Address of the smart contract to interact with |
+| **TargetFunction** | Required for call | Call | Function name such as transfer, mint, or others. |
+| **TargetParams** | Required for call | Call | Parameters for the function call |
+| **ChainID** | Required | Deploy, Call | EVM Chain ID where the action will be executed |
+| **Metadata** | Optional | All | Optional metadata or tags |
+| **RetriesUntilSuccess** | Optional | All | Number of retries until success (default is 0) |
 
 ## Retry logic
 
