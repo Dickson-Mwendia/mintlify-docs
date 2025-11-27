@@ -56,6 +56,7 @@
               "concepts/yaml-workflow-basics",
               "concepts/workflow-execution",
               "concepts/working-with-triggers",
+              "concepts/working-with-actions",
               "concepts/using-regex",
               "concepts/limits-and-quotas"
             ]
