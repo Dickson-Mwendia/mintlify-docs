@@ -29,12 +29,12 @@
           {
             "group": "Use the Workflow Builder",
             "pages": [
-              "workflow-builder/exploring-the-playground",
+              "workflow-builder/explore-the-playground",
               "workflow-builder/create-workflow",
               "workflow-builder/configure-workflow",
               "workflow-builder/deploy-workflow",
               "workflow-builder/test-and-monitor",
-              "concepts/using-workflow-templates",
+              "concepts/use-workflow-templates",
               "concepts/best-practices"
             ]
           },
@@ -55,9 +55,9 @@
               "concepts/supported-chains",
               "concepts/yaml-workflow-basics",
               "concepts/workflow-execution",
-              "concepts/working-with-triggers",
-              "concepts/working-with-actions",
-              "concepts/using-regex",
+              "concepts/work-with-triggers",
+              "concepts/work-with-actions",
+              "concepts/regex-usage",
               "concepts/limits-and-quotas"
             ]
           },
@@ -105,10 +105,10 @@
             ]
           },
           {
-            "group": "Using the Kwala Explorer",
+            "group": "Use the Kwala Explorer",
             "pages": [
-              "explorer/searching-workflows",
-              "explorer/viewing-execution-details",
+              "explorer/search-workflows",
+              "explorer/view-execution-details",
               "explorer/network-statistics"
             ]
           }
