@@ -7,14 +7,18 @@ Before you can create and run KWALA workflows, you need to set up your wallet an
 
 ## Step 1: Connect your Web3 wallet
 
-You need a MetaMask wallet to purchase KWALA credits and run workflows.
+KWALA supports multiple Web3 wallets such as MetaMask, Rainbow, Base Account, WalletConnect, and more.
+
+<Info>
+  This quickstart uses MetaMask as an example, but you can use any supported wallet.
+</Info>
 
 <Steps>
-  <Step title="Install MetaMask">
-    If you don't already have MetaMask, download and install it from [metamask.io](https://metamask.io). You'll need to:
+  <Step title="Install a Web3 wallet">
+    If you don't already have a wallet, download and install one. For MetaMask, visit [metamask.io](https://metamask.io). You'll need to:
     - Create a new wallet or import an existing one
     - Save your recovery phrase securely
-    - Configure it for BNB Smart Chain network
+    - Configure it for BNB Smart Chain network (required for purchasing credits)
   </Step>
   
   <Step title="Navigate to the KWALA dashboard"> 
@@ -25,7 +29,7 @@ You need a MetaMask wallet to purchase KWALA credits and run workflows.
   </Step>
   
   <Step title="Connect your wallet">
-    On the dashboard, select the **Connect Wallet** button. This will redirect you to connect via MetaMask.
+    On the dashboard, select the **Connect Wallet** button. Choose your preferred wallet from the available options.
   </Step>
   
   <Step title="Authorize connection">
@@ -75,28 +79,37 @@ Once your wallet is set up and you've purchased credits, you're ready to create 
   </Step>
   
   <Step title="Configure your workflow">
-    Use the workflow editor to configure:
-    - **Name**: Give your workflow a descriptive name
-    - **Execution mode**: Choose parallel or sequential execution
-    - **Triggers**: Define when your workflow should run (event-based or time-based)
-    - **Actions**: Specify what the workflow should do when trigger conditions are met (deploy contracts, call APIs, send notifications)
-    <Frame>
-      <img src="/images/getting-started/quickstart/kwala-workflow-editor.PNG" alt="KWALA workflow editor interface" />
-    </Frame>
-
-    If you prefer a more visual way to build your workflow instead of YAML, select the **Workflow Builder** button in the editor's top navigation pane. A new window pops up where you can use a form-based UI to configure triggers, actions, and execution settings. 
+    Use the **Workflow Builder** to visually configure your workflow. This form-based UI lets you set up triggers, actions, and execution settings without writing YAML.
 
     <Frame>
       <img src="/images/getting-started/quickstart/kwala-workflow-builder.PNG" alt="KWALA workflow builder interface" />
     </Frame>
 
-    In the workflow builder, fill in the:
+    In the workflow builder:
     - Provide a name for your workflow
     - Add trigger configuration
-    - Add upto 10 actions to execute when trigger conditions are met
+    - Add up to 10 actions to execute when trigger conditions are met
     - Configure the execution mode
 
-  Once done, KWALA generates the complete YAML automation script based on your configurations. Save the workflow
+    Once done, KWALA generates the complete YAML automation script based on your configurations. Save the workflow.
+  </Step>
+
+  <Step title="Review and edit your workflow">
+    After saving, your workflow opens in the **Workflow Editor** where you can view and modify the generated YAML directly.
+
+    <Frame>
+      <img src="/images/getting-started/quickstart/kwala-workflow-editor.PNG" alt="KWALA workflow editor interface" />
+    </Frame>
+
+    In the workflow editor, you can fine-tune:
+    - **Name**: Update your workflow's name
+    - **Execution mode**: Switch between parallel or sequential execution
+    - **Triggers**: Adjust when your workflow should run
+    - **Actions**: Modify contract calls, API endpoints, or notification settings
+
+    <Tip>
+      You can switch back to the visual Workflow Builder at any time by selecting the **Workflow Builder** button in the top navigation pane.
+    </Tip>
   </Step>
   
   <Step title="Test your workflow">
