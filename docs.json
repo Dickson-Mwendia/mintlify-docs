@@ -33,7 +33,7 @@
               "workflow-builder/create-workflow",
               "workflow-builder/configure-workflow",
               "workflow-builder/deploy-workflow",
-              "workflow-builder/test-and-monitor",
+              "workflow-builder/monitor-workflow",
               "concepts/use-workflow-templates",
               "concepts/best-practices"
             ]
